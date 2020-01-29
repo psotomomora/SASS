@@ -16,6 +16,12 @@ footer {
   align-content: center;
 }
 
+.fondonina {
+  background-color: #e6e7e7;
+  height: 120px;
+  padding-top: 40px;
+}
+
 .circular--square {
   border-radius: 50%;
 }
