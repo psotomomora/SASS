@@ -1,62 +1,17 @@
-nav {
-  background-color: #121619;
-  color: #fff;
-}
+/* Error: expected ")".
+ *    ,
+ * 13 |   @media screen and (max-width: 600px;)
+ *    |                                      ^
+ *    '
+ *   base\_tipografías.scss 13:38  @import
+ *   stylo.scss 3:9                root stylesheet */
 
-img {
-  width: 10%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
 }
-
-.circular--square {
-  border-radius: 50%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-}
-
-.tipotitulo {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-size: 70px;
-  margin-top: 100px;
-  color: #fff;
-}
-
-.tiponaomi {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-size: 30px;
-  color: #121619;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-.contenedor {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.texto-encima {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.centrado {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/*# sourceMappingURL=style.css.map */
