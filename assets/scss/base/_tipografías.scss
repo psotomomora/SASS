@@ -1,18 +1,18 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'sans-serif';
 }
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'serif';
 }
 .tipotitulo {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'serif';
   font-style: italic;
   font-size: 70px;
   margin-top: 100px;
   color: #fff;
 }
 .tiponaomi {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display','serif';
   font-style: italic;
   font-size: 30px;
   color: #121619;
@@ -20,7 +20,7 @@ h1 {
 }
 
 .subtitulo {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto','sans-serif';
   font-style: normal;
   font-size: 12px;
   color: #121619;
@@ -31,7 +31,15 @@ h1 {
 }
 
 .sitioweb {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   color: #d76c69;
+}
+
+@media screen and (max-width: 600px)
+{
+  .tipotitulo {
+    font-size: 20px;
+    margin-top: 1px;
+  }
 }
