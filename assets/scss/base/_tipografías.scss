@@ -1,29 +1,29 @@
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: $tiporobo;
 }
 h1 {
-  font-family: 'Playfair Display', 'serif';
+  font-family: $tipoplay;
 }
 .tipotitulo {
-  font-family: 'Playfair Display', 'serif';
+  font-family: $tipoplay;
   font-style: italic;
   font-size: 70px;
   margin-top: 100px;
-  color: #fff;
+  color: $colorblanco;
 }
 .tiponaomi {
-  font-family: 'Playfair Display','serif';
+  font-family: $tipoplay;
   font-style: italic;
   font-size: 30px;
-  color: #121619;
+  color: $colorback;
   text-align: left;
 }
 
 .subtitulo {
-  font-family: 'Roboto','sans-serif';
+  font-family: $tiporobo;
   font-style: normal;
   font-size: 12px;
-  color: #121619;
+  color: $colorback;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 35px;
@@ -31,9 +31,9 @@ h1 {
 }
 
 .sitioweb {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: $tiporobo;
   font-style: normal;
-  color: #d76c69;
+  color: $colorrosa;
 }
 
 @media screen and (max-width: 600px)

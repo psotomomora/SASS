@@ -1,5 +1,5 @@
 nav {
-  background-color: #121619;
+  background-color: $colorback;
   color: #fff;
 }
 
@@ -12,11 +12,11 @@ width: 10%;
 }
 
 footer {
-  background-color: #121619;
+  background-color: $colorback;
   align-content: center;
 }
 .fondonina {
-  background-color: #e6e7e7;
+  background-color: $colorgris:
   height: 200px;
   padding-top: 40px;
 }
